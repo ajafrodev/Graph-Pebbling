@@ -95,6 +95,7 @@ public class Graph {
         } else {
             find_pebbles(V);
         }
+        System.out.println("Max Profit: " + Math.max(p[V], not_p[V]));
         return pebbled;
     }
 
