@@ -193,7 +193,6 @@ public class Graph {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-//        Graph graph = new Graph("height.txt");
         Graph sample = new Graph("input1.txt");
         Graph graph1 = new Graph("task2input1.txt");
         Graph graph2 = new Graph("task2input2.txt");
